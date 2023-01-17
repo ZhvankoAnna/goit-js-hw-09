@@ -3,7 +3,7 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 const formEl = document.querySelector('.form');
 let position = null;
 let amount = null;
-let delayInput = null;
+let delay = null;
 
 function createPromise(position, delay) {
   const shouldResolve = Math.random() > 0.3;
